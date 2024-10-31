@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* global css */
+
+body{
+    font-family: "DM Sans", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+h5{
+    color: #008ed6;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+
+h2{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    color: #999999;
+}
+
+/* header section code start */
+
+header{
+    width: 100%;
+    background: url(../class6/img/banner.png) center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar .nav-item{
+    margin-left: -2px;
+}
+
+
+
+.navbar .nav-item .nav-link{
+    color: #fff;
+}
+
+.cus-height{
+    height: 90vh;
+}
+
+header .banner-section h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+}
+
+header .banner-section p{
+    width: 82%;
+    color: #fff;
+}
+
+header .banner-section .btns{
+    margin-top: 60px;
+}
+
+header .banner-section .btns a{
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+header .banner-section .btns .btn-primary{
+    background: #008ed6;
+    border: 1px solid #008ed6;
+    margin-right: 5px;
+}
+
+header .banner-section .btns .btn-primary:hover{
+    background: transparent;
+    border: 1px solid #fff;
+    transition: 0.7s;
+
+}
+
+header .banner-section .btns .btn-info{
+    background: transparent;
+    border: 1px solid #fff;
+    transition: 0.7s;
+}
+
+header .banner-section .btns .btn-info:hover{
+    background: #008ed6;
+    border: 1px solid #008ed6;
+    transition: 0.7s;
+}
+
+.feature-section{
+    width: 100%;
+    padding: 55px 0px;
+}
+
+.title{
+    margin: 50px;
+}
+
+.underline{
+    width: 100px;
+    height: 4px;
+    background: #008ed6;
+    margin: 35px auto 0px;
+}
+
+.feature-section .i-box i{
+    font-size: 30px;
+    color: #008ed6;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #d6d6d6;
+    border-radius: 50%;
+    line-height: 80px;
+    margin-top: 25px;
+}
+
+.feature-section .i-box h6{
+    font-size: 22px;
+    color: #1a1a1a;
+}
+
+.feature-section .i-box p{
+    padding: 0px 20px;
+}
+
+
